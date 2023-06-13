@@ -1,0 +1,84 @@
+class Programa {
+
+    ??? main ??? {
+        System.out.println("¿Puedes ayudar a Ana?");
+    }
+
+}
+
+
+
+¡Correcto! Aún no sabemos que significan todas esas palabras, pero tranquilo, va a quedar claro después. En este momento, solo nos basta saber que la entrada de una aplicación Java es siempre la función/método public static void main(String[] args)
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+class Programa {
+
+    public static void main(String[] args) {
+        System.out.println("Funcionooo!!!");
+    }
+
+}
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+javac Programa.java
+java Programa
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+public class Programa {
+
+    public static void main(String[] args){
+        System.out.println("Hola mundo");
+    }
+
+}
+
+public class TestVariables {
+
+    public static void main(String [] args){
+
+        System.out.println("Hola nuevo test");    
+
+        int edad = 37;
+
+        System.out.println("La edad es "+ edad + ", Felicitaciones!");
+    }
+
+}
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+public class TestPuntoFlotante {
+
+    public static void main(String[] args){
+
+        double salario = 1250.70;
+
+        System.out.println(salario);
+
+        int valor = 12.5;             //no compila.
+
+        int valor2 = 0.0;             //no compila.
+
+        double test = 125.50;        // compila
+
+        int valor3 = test;           //no compila.
+
+    }
+
+}
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+public class TestConversion {
+
+    public static void main(String[] args){
+
+        float puntoFlotante = 3.14f;
+
+        double salario = 1270.50;
+        int valor = (int) salario;
+        System.out.println(valor);
+
+        double valor1 = 0.2;
+        double valor2 = 0.1;
+        double total = valor1 + valor2;
+
+        System.out.println(total);
+    }
+
+}
